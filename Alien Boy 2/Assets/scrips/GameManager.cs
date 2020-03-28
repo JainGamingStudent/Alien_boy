@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject pausebtn;
     public GameObject resumebtn;
-    public void pauseGame()
+    public void GameOverScreen()
     {
         pausebtn.SetActive(false);
         bestScore_txt.text = "Best Score : " + PlayerPrefs.GetInt("Score");

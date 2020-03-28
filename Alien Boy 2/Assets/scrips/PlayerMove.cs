@@ -20,6 +20,9 @@ public class PlayerMove : MonoBehaviour
     Vector3 Destination = Vector3.zero;
 
     public GameManager _manager;
+
+    Vector3 rightLook = new Vector3(1, 1, 1);
+    Vector3 leftLook = new Vector3(-1, 1, 1);
     // Use this for initialization
     void Awake()
     {
@@ -37,7 +40,28 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position,Destination,10*Time.deltaTime);
+        gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position,Destination,5*Time.deltaTime);
+        if(Vector3.Distance(gameObject.transform.position,Destination)<0.01f)
+        {
+            gameObject.GetComponent<Animator>().SetBool("Walk", false);
+        }
+        else
+        {
+            gameObject.GetComponent<Animator>().SetBool("Walk", true);
+        }
+        if(Input.GetMouseButtonDown(0))
+        {
+            Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Destination.x = pos.x;
+            if (gameObject.transform.position.x < Destination.x)
+            {
+                gameObject.transform.localScale = rightLook;
+            }
+            else
+            {
+                gameObject.transform.localScale = leftLook;
+            }
+        }
 
     }
 
@@ -73,19 +97,19 @@ public class PlayerMove : MonoBehaviour
 
         if (other.tag == "sezer")
         {
-            GameObject.Find("Sound").GetComponent<Sound>().hit.Play();
+           // GameObject.Find("Sound").GetComponent<Sound>().hit.Play();
             Time.timeScale = 0f;
             if (PlayerPrefs.GetInt("Score") < timer)
             {
                 PlayerPrefs.SetInt("Score", timer);
             }
             _manager.Score = timer;
-            _manager.pauseGame();
+            _manager.GameOverScreen();
             //StartCoroutine(RestartGame());
         }
         if (other.tag == "coin")
         {
-            GameObject.Find("Sound").GetComponent<Sound>().collect.Play();
+           // GameObject.Find("Sound").GetComponent<Sound>().collect.Play();
             Destroy(other.gameObject);
             timer += 2;
         }

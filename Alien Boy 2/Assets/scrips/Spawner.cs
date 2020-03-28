@@ -7,8 +7,8 @@ public class Spawner : MonoBehaviour
     public GameObject sezer;
     public GameObject coin;
 
-    private float min_X = -2.5f;
-    private float max_X = 2.5f;
+    private float min_X = -2.3f;
+    private float max_X = 2.3f;
 
     // Start is called before the first frame update
     void Start()
@@ -29,15 +29,7 @@ public class Spawner : MonoBehaviour
         {
             k = Instantiate(coin);
         }
-
-        if (Random.Range(min_X, max_X) > 0)
-        {
-            k.transform.position = new Vector2(1.5f, transform.position.y);
-        }
-        else
-        {
-            k.transform.position = new Vector2(-1.5f, transform.position.y);
-        }
+        k.transform.position = new Vector2(Random.Range(min_X, max_X), transform.position.y);
         StartCoroutine(StartSpawning());
     }
 
