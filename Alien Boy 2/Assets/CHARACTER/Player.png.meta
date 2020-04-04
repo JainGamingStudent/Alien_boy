@@ -1,81 +1,75 @@
 fileFormatVersion: 2
-guid: 5d5dc4c3df5d5324c98b07e4e0bd1920
+guid: ff0917beba911474f844dfbf273f42e3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: Idel_0
+      213: -2311659948842064771
+    second: Player_0
   - first:
-      213: 21300002
-    second: Idel_1
+      213: 7364682651488144517
+    second: Player_1
   - first:
-      213: 21300004
-    second: Idel_2
+      213: -6287787046888575383
+    second: Player_2
   - first:
-      213: 21300006
-    second: Idel_3
+      213: -1182821291677670348
+    second: Player_3
   - first:
-      213: 21300008
-    second: Idel_4
+      213: -4709456396536258026
+    second: Player_4
   - first:
-      213: 21300010
-    second: Idel_5
+      213: -4529042392078601758
+    second: Player_5
   - first:
-      213: 21300012
-    second: Idel_6
+      213: -7446026091647042388
+    second: Player_6
   - first:
-      213: 21300014
-    second: Idel_7
+      213: 5938012242645255967
+    second: Player_7
   - first:
-      213: 21300016
-    second: Idel_8
+      213: -4245738604243887485
+    second: Player_8
   - first:
-      213: 21300018
-    second: Idel_9
+      213: 2473453845335418800
+    second: Player_9
   - first:
-      213: 21300020
-    second: Idel_10
+      213: -3287367053296241113
+    second: Player_10
   - first:
-      213: 21300022
-    second: Idel_11
+      213: -5319882733741912588
+    second: Player_11
   - first:
-      213: 21300024
-    second: Idel_12
+      213: 7365574002475698461
+    second: Player_12
   - first:
-      213: 21300026
-    second: Idel_13
+      213: 6472545519820947264
+    second: Player_13
   - first:
-      213: 21300028
-    second: Idel_14
+      213: -2472340072831945791
+    second: Player_14
   - first:
-      213: 21300030
-    second: Idel_15
+      213: 4681514556078180949
+    second: Player_15
   - first:
-      213: 21300032
-    second: Idel_16
+      213: -2521826894279438384
+    second: Player_16
   - first:
-      213: 21300034
-    second: Idel_17
+      213: -7338765713033929952
+    second: Player_17
   - first:
-      213: 21300036
-    second: Idel_18
+      213: 1522305984107872113
+    second: Player_18
   - first:
-      213: 21300038
-    second: Idel_19
+      213: -661973496601677656
+    second: Player_19
   - first:
-      213: 21300040
-    second: Idel_20
+      213: -5989208844104669019
+    second: Player_20
   - first:
-      213: 21300042
-    second: Idel_21
-  - first:
-      213: 21300044
-    second: Idel_22
-  - first:
-      213: 21300046
-    second: Idel_23
+      213: -620360788158790383
+    second: Player_21
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -129,6 +123,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -141,7 +136,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -153,7 +148,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
@@ -165,30 +160,18 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idel_0
+      name: Player_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 488
-        width: 53
-        height: 144
+        x: 1
+        y: 381
+        width: 129
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b6c5ee44cbd31a4b984f08c2a43a8fb
-      internalID: 21300000
+      spriteID: d7465c336855befd0800000000000000
+      internalID: -2311659948842064771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idel_1
+      name: Player_1
       rect:
         serializedVersion: 2
-        x: 104
-        y: 487
-        width: 58
-        height: 144
+        x: 179
+        y: 381
+        width: 102
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f0119ed40636d64a95f049b32b92efe
-      internalID: 21300002
+      spriteID: 58cce6d0adb943660800000000000000
+      internalID: 7364682651488144517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idel_2
+      name: Player_2
       rect:
         serializedVersion: 2
-        x: 195
-        y: 486
-        width: 64
-        height: 144
+        x: 323
+        y: 381
+        width: 107
+        height: 161
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f88a024e389aaa54db74ca149e1c19d6
-      internalID: 21300004
+      spriteID: 96e67e6befa4db8a0800000000000000
+      internalID: -6287787046888575383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idel_3
+      name: Player_3
       rect:
         serializedVersion: 2
-        x: 287
-        y: 486
-        width: 71
-        height: 143
+        x: 461
+        y: 381
+        width: 119
+        height: 161
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5039fb560460b147b8da3fedbc120ab
-      internalID: 21300006
+      spriteID: 434a8c45d46c59fe0800000000000000
+      internalID: -1182821291677670348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idel_4
+      name: Player_4
       rect:
         serializedVersion: 2
-        x: 378
-        y: 485
-        width: 79
-        height: 142
+        x: 600
+        y: 381
+        width: 134
+        height: 161
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64d5e1fa88ebe684a92a75a6f08f9a16
-      internalID: 21300008
+      spriteID: 612e34feb56a4aeb0800000000000000
+      internalID: -4709456396536258026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idel_5
+      name: Player_5
       rect:
         serializedVersion: 2
-        x: 471
-        y: 485
-        width: 84
-        height: 141
+        x: 790
+        y: 381
+        width: 90
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,83 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d87b8560a6f1f344794d0677fab46683
-      internalID: 21300010
+      spriteID: 2e13877b0fb9521c0800000000000000
+      internalID: -4529042392078601758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idel_6
+      name: Player_6
       rect:
         serializedVersion: 2
-        x: 5
-        y: 326
-        width: 87
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f38ca7d6cb53a47418158cdab0d81733
-      internalID: 21300012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idel_7
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 323
-        width: 88
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc211b8954fbf904aaeea24a58effe7d
-      internalID: 21300014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idel_8
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 321
-        width: 87
-        height: 146
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdf06418a2aef6b48be069ef99635b7c
-      internalID: 21300016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idel_9
-      rect:
-        serializedVersion: 2
-        x: 286
-        y: 320
+        x: 951
+        y: 381
         width: 80
-        height: 149
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c59faf11d216cc47a22eadf6d126537
-      internalID: 21300018
+      spriteID: cac761b68b66aa890800000000000000
+      internalID: -7446026091647042388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idel_10
+      name: Player_7
       rect:
         serializedVersion: 2
-        x: 380
-        y: 318
-        width: 72
-        height: 153
+        x: 1075
+        y: 382
+        width: 105
+        height: 162
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c49dc850df5f7d4886fb5956809506f
-      internalID: 21300020
+      spriteID: f178aca7cae086250800000000000000
+      internalID: 5938012242645255967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idel_11
+      name: Player_8
       rect:
         serializedVersion: 2
-        x: 475
-        y: 317
-        width: 61
-        height: 155
+        x: 44
+        y: 190
+        width: 68
+        height: 179
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,62 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a4238bcc21024b43954d8c5b5ac7174
-      internalID: 21300022
+      spriteID: 38a51ecfb3b1415c0800000000000000
+      internalID: -4245738604243887485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idel_12
+      name: Player_9
       rect:
         serializedVersion: 2
-        x: 12
-        y: 159
-        width: 55
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbe052504ce09ba4b88bc362f88b1946
-      internalID: 21300024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idel_13
-      rect:
-        serializedVersion: 2
-        x: 110
-        y: 159
-        width: 51
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e640e907bcd71914b92045456b9c76c6
-      internalID: 21300026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idel_14
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 158
+        x: 200
+        y: 190
         width: 60
-        height: 156
+        height: 179
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1ac4f477ce99364dbef28de10111393
-      internalID: 21300028
+      spriteID: 0b7aa8bda29735220800000000000000
+      internalID: 2473453845335418800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idel_15
+      name: Player_10
       rect:
         serializedVersion: 2
-        x: 287
-        y: 159
-        width: 69
-        height: 154
+        x: 345
+        y: 190
+        width: 63
+        height: 179
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -511,20 +389,230 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00133683fbaa00a4995376a37c66bb8c
-      internalID: 21300030
+      spriteID: 72674fd051de062d0800000000000000
+      internalID: -3287367053296241113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idel_16
+      name: Player_11
       rect:
         serializedVersion: 2
-        x: 376
-        y: 159
+        x: 477
+        y: 190
+        width: 72
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd4490f6dafb26b0800000000000000
+      internalID: -5319882733741912588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_12
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 190
+        width: 64
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d198a60e786c73660800000000000000
+      internalID: 7365574002475698461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_13
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 190
+        width: 61
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f39757bd913d950800000000000000
+      internalID: 6472545519820947264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_14
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 190
+        width: 62
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c373e28dcb70bdd0800000000000000
+      internalID: -2472340072831945791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_15
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 190
+        width: 62
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a4cdd5fa418f040800000000000000
+      internalID: 4681514556078180949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_16
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 48
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df82750dcba00dd0800000000000000
+      internalID: -2521826894279438384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_17
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 49
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bdbc86777772a90800000000000000
+      internalID: -7338765713033929952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_18
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 58
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f733e1a31502510800000000000000
+      internalID: 1522305984107872113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_19
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 58
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a07554bc9230d6f0800000000000000
+      internalID: -661973496601677656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_20
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 106
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a86389d94e02eca0800000000000000
+      internalID: -5989208844104669019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_21
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 0
         width: 78
-        height: 153
+        height: 169
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,155 +620,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e25a9c75d18db2d4aac4739d5254646b
-      internalID: 21300032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idel_17
-      rect:
-        serializedVersion: 2
-        x: 466
-        y: 161
-        width: 88
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d13b26677a0fd6049bc75f3096580c50
-      internalID: 21300034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idel_18
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 4
-        width: 91
-        height: 148
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a908f58b06b3e16448b958071271f083
-      internalID: 21300036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idel_19
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 7
-        width: 86
-        height: 146
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 306187e1c0d165240a5612a5e8f8b658
-      internalID: 21300038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idel_20
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 11
-        width: 73
-        height: 143
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55a1632315860e846bf5bda97c5f7f4f
-      internalID: 21300040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idel_21
-      rect:
-        serializedVersion: 2
-        x: 291
-        y: 14
-        width: 59
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46bc937545b51814e98b1541ce531d0a
-      internalID: 21300042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idel_22
-      rect:
-        serializedVersion: 2
-        x: 390
-        y: 15
-        width: 52
-        height: 142
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3be7c59fcf23a74bb3f8e7f70963009
-      internalID: 21300044
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idel_23
-      rect:
-        serializedVersion: 2
-        x: 482
-        y: 16
-        width: 52
-        height: 142
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 914ddfa64332b454d9888fc3964ae5c9
-      internalID: 21300046
+      spriteID: 115c63566290467f0800000000000000
+      internalID: -620360788158790383
       vertices: []
       indices: 
       edges: []
@@ -688,7 +629,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 660841f2868b78f4d82baedc192fb835
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
